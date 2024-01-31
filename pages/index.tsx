@@ -1,8 +1,8 @@
-import { Navbar } from "@/components/Navbar";
+import Navbar from "@/components/Navbar";
 
 export default function Home() {
   return (
-    <div>
+    <div className="bg-primary shadow-page bg-page-gradient h-screen">
       <Navbar />
     </div>
   );
