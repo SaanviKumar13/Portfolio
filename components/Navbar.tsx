@@ -2,6 +2,8 @@ import { NavLink } from "@/utils/data";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
+import { BiMenu } from "react-icons/bi";
+import { RxCross1 } from "react-icons/rx";
 
 const Navbar = () => {
   const pathname = usePathname();
@@ -31,18 +33,25 @@ const Navbar = () => {
               </Link>
             ))}
           </div>
-          <button onClick={toggleNav} className="md:hidden">
-            click
+          <button
+            onClick={toggleNav}
+            className="md:hidden transition-all duration-100"
+          >
+            {!navbarOpen ? (
+              <BiMenu className="w-8 h-8 text-gray-200" />
+            ) : (
+              <RxCross1 className="w-8 h-8 text-gray-200" />
+            )}
           </button>
         </div>
         <div>
           {navbarOpen && (
-            <div className="text-center md:hidden">
+            <div className="text-center md:hidden transition-all duration-300">
               {NavLink.map(({ name, link }) => (
                 <Link
                   key={link}
                   href={link}
-                  className={`block py-2 px-4 hover:bg-gray-700 ${
+                  className={`block py-2 px-4 ${
                     pathname === link ? "text-gray-100" : "text-gray-200"
                   }`}
                 >
