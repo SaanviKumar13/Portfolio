@@ -16,3 +16,26 @@ export const NavLink = [
       link: '#contact-me'
     }
   ];
+
+  export const Socials=[
+    {
+      name:"Instagram",
+      icon:"<Instagram/>",
+      href:""
+    },
+    {
+      name:"Instagram",
+      icon:"<Instagram/>",
+      href:""
+    },
+    {
+      name:"Instagram",
+      icon:"<Instagram/>",
+      href:""
+    },
+    {
+      name:"Instagram",
+      icon:"<Instagram/>",
+      href:""
+    }
+  ]
