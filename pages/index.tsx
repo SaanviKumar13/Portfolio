@@ -1,3 +1,4 @@
+import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 import Socials from "@/components/Socials";
 
@@ -6,6 +7,7 @@ export default function Home() {
     <div className="bg-primary shadow-page bg-page-gradient h-screen">
       <Navbar />
       <Socials />
+      <Hero />
     </div>
   );
 }
