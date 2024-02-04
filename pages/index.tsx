@@ -4,7 +4,7 @@ import Socials from "@/components/Socials";
 
 export default function Home() {
   return (
-    <div className="bg-primary shadow-page bg-page-gradient h-screen">
+    <div className="bg-primary font-main shadow-page bg-page-gradient h-screen">
       <Navbar />
       <Socials />
       <Hero />

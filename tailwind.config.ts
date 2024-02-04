@@ -18,6 +18,9 @@ const config: Config = {
       boxShadow: {
         primary: 'rgb(80 63 205 / 50%) 0px 1px 40px',
       },
+      fontFamily:{
+        main:['Inter', 'sans-serif'],
+      }
   }
   },
   plugins: [],
