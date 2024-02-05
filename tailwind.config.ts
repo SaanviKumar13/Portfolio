@@ -20,6 +20,7 @@ const config: Config = {
       },
       fontFamily:{
         main:['Inter', 'sans-serif'],
+        title:['Playfair Display', 'serif']
       }
   }
   },
