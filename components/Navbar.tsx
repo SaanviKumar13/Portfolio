@@ -14,7 +14,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="sticky top-0 z-10 shadow-xl">
+    <nav className="sticky top-0 z-20 shadow-xl backdrop-blur-lg ">
       <div className="flex flex-col px-4 md:px-10 mx-auto">
         <div className="flex md:flex-row items-center justify-between h-16">
           <span className="text-2xl text-gray-200 font-semibold inline-block text-transparent bg-clip-text bg-gradient-to-r from-slate-50 via-sky-100 to-slate-50 cursor-pointer">
