@@ -14,18 +14,18 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="sticky top-0 z-20 shadow-xl backdrop-blur-lg ">
+    <nav className="sticky top-7 font-mono mt-10">
       <div className="flex flex-col px-4 md:px-10 mx-auto">
-        <div className="flex md:flex-row items-center justify-between h-16">
-          <span className="text-2xl text-gray-200 font-semibold inline-block text-transparent bg-clip-text bg-gradient-to-r from-slate-50 via-sky-100 to-slate-50 cursor-pointer">
+        <div className="flex md:flex-row items-center justify-between">
+          <span className="text-5xl font-semibold font-title text-black bg-primary px-9 py-3 rounded-full shadow-md shadow-[#527794] cursor-pointer">
             saanmee.dev
           </span>
-          <div className="hidden md:flex flex-row gap-5 font-medium text-lg text-gray-200">
+          <div className="hidden md:flex flex-row gap-5 font-medium text-lg text-black">
             {NavLink.map(({ name, link }) => (
               <Link
                 key={link}
                 href={link}
-                className={`hover:text-slate-50 ${
+                className={`hover:text- ${
                   pathname === link ? "text-gray-100" : ""
                 }`}
               >
@@ -38,9 +38,9 @@ const Navbar = () => {
             className="md:hidden transition-all duration-100"
           >
             {!navbarOpen ? (
-              <BiMenu className="w-8 h-8 text-gray-200" />
+              <BiMenu className="w-8 h-8 text-gray-900" />
             ) : (
-              <RxCross1 className="w-8 h-8 text-gray-200" />
+              <RxCross1 className="w-8 h-8 text-gray-900" />
             )}
           </button>
         </div>

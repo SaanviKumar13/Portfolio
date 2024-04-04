@@ -6,13 +6,13 @@ import Head from "next/head";
 
 export default function Home() {
   return (
-    <div className="bg-primary font-main shadow-page bg-page-gradient">
+    <div className="bg-primary font-mono">
       <Head>
         <title>Saanvi Kumar</title>
       </Head>
+      <Hero />
       <Navbar />
       <Socials />
-      <Hero />
       <Skills />
     </div>
   );

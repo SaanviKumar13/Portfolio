@@ -1,28 +1,38 @@
-import { SkillList } from "@/utils/data";
+import SkillList from "@/utils/data";
 
 interface SkillProps {
-  image: string;
-  name: string;
+  category: string;
+  list: string[];
 }
 
 const Skills = () => {
   return (
-    <div className="flex flex-col justify-center items-center">
-      <div className="h-fit md:ml-20">
-        <h1 className="text-5xl font-title font-extrabold text-center mb-10 md:mb-0 text-slate-100">
+    <div
+      id="skills"
+      className="flex flex-col h-[80vh] justify-center items-center mt-32"
+    >
+      <div className="h-fit">
+        <h1 className="text-5xl font-extrabold text-center mb-10 md:mb-5 text-black">
           Skills
         </h1>
-        <div className="flex flex-wrap justify-center items-center my-10 mt-0">
-          {SkillList.map(({ image, name }: SkillProps) => {
+        <div className="grid grid-cols-1 md:grid-cols-3 items-center md:items-start my-10 mt-0">
+          {SkillList.map(({ category, list }: SkillProps) => {
             return (
-              <div className="flex flex-col items-center justify-center text-white my-5 mx-16">
-                <img
-                  src={image}
-                  alt={name}
-                  key={image}
-                  className="p-2 sm:p-6 w-20 md:w-32"
-                />
-                <h1 className="font-bold">{name}</h1>
+              <div
+                key={category}
+                className="flex flex-col items-center md:items-start justify-start text-black my-5 mx-16"
+              >
+                <h1 className="font-bold mb-4">{category}</h1>
+                <div className="flex flex-wrap justify-center md:justify-start gap-5">
+                  {list.map((skill, idx) => (
+                    <p
+                      className=" bg-[#527794] text-slate-50 rounded-lg py-2 w-fit px-5"
+                      key={idx}
+                    >
+                      {skill}
+                    </p>
+                  ))}
+                </div>
               </div>
             );
           })}
