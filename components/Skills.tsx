@@ -1,4 +1,4 @@
-import SkillList from "@/utils/data";
+import { SkillList } from "@/utils/data";
 
 interface SkillProps {
   category: string;
@@ -9,10 +9,10 @@ const Skills = () => {
   return (
     <div
       id="skills"
-      className="flex flex-col min-h-screen h-full justify-center items-center mt-32"
+      className="flex flex-col min-h-[70vh] h-full justify-center items-center mt-32"
     >
       <div className="h-fit">
-        <h1 className="text-5xl font-extrabold text-center mb-10 md:mb-5 text-black">
+        <h1 className="text-4xl md:text-5xl font-extrabold text-center mb-10 md:mb-5 text-black">
           Skills
         </h1>
         <div className="grid grid-cols-1 md:grid-cols-3 items-center md:items-start my-10 mt-0">

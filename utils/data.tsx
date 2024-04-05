@@ -9,7 +9,7 @@ export const NavLink = [
   },
 ];
 
-const SkillList = [
+export const SkillList = [
   {
     category: "Languages",
     list: ["Python", "TypeScript", "JavaScript", "Java", "C", "C++"],
@@ -32,4 +32,17 @@ const SkillList = [
   },
 ];
 
-export default SkillList;
+export const CertificatesList = [
+  {
+    name: "Machine Learning Specialization",
+    image: "ml.png",
+    description: "Completed a ML course taken by Andrew Ng",
+    issuedBy: "Coursera - Standford University",
+  },
+  {
+    name: "Programming in Java",
+    image: "java.png",
+    description: "Recieved a certificate of elite + silver medal.",
+    issuedBy: "NPTEL",
+  },
+];

@@ -1,3 +1,4 @@
+import Certificates from "@/components/Certificates";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 import Skills from "@/components/Skills";
@@ -14,6 +15,7 @@ export default function Home() {
       <Navbar />
       <Socials />
       <Skills />
+      <Certificates />
     </div>
   );
 }
