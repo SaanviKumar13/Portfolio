@@ -9,7 +9,7 @@ const Skills = () => {
   return (
     <div
       id="skills"
-      className="flex flex-col h-[80vh] justify-center items-center mt-32"
+      className="flex flex-col min-h-screen h-full justify-center items-center mt-32"
     >
       <div className="h-fit">
         <h1 className="text-5xl font-extrabold text-center mb-10 md:mb-5 text-black">
