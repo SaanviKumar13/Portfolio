@@ -25,7 +25,7 @@ const Navbar = () => {
               <Link
                 key={link}
                 href={link}
-                className={`hover:text- ${
+                className={`hover:text-[#527794] ${
                   pathname === link ? "text-gray-100" : ""
                 }`}
               >
