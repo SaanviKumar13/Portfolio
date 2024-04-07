@@ -38,11 +38,7 @@ const Hero = () => {
             ></Player>
           </div>
           <div className="mt-20 md:mt-6">
-            <Button variant="secondary">
-              <a href="/SaanviKumar.pdf" download="SaanviKumar.pdf">
-                Resume
-              </a>
-            </Button>
+            <Button />
           </div>
         </div>
       </div>
