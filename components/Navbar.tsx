@@ -18,7 +18,7 @@ const Navbar = () => {
       <div className="flex flex-col px-4 md:px-10 mx-auto">
         <div className="flex md:flex-row items-center justify-between">
           <span className="text-2xl md:text-5xl font-semibold font-title text-black bg-primary px-9 py-3 rounded-full shadow-md shadow-[#527794] cursor-pointer">
-            saanmee.dev
+            saanvikumar.dev
           </span>
           <div className="hidden md:flex flex-row gap-5 font-medium text-lg text-black">
             {NavLink.map(({ name, link }) => (
