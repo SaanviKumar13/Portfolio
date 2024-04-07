@@ -38,18 +38,22 @@ const Hero = () => {
             ></Player>
           </div>
           <div className="mt-20 md:mt-6">
-            <Button variant="secondary"> Resume </Button>
+            <Button variant="secondary">
+              <a href="/SaanviKumar.pdf" download="SaanviKumar.pdf">
+                Resume
+              </a>
+            </Button>
           </div>
         </div>
       </div>
       <img
         src="/waves-bottom.png"
-        alt=""
+        alt="waves"
         className="hidden md:block w-full h-32"
       />
       <img
         src="/waves-bottom-sm.png"
-        alt=""
+        alt="waves"
         className="md:hidden w-full h-64"
       />
     </div>

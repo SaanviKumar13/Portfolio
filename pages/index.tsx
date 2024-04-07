@@ -1,6 +1,7 @@
 import Certificates from "@/components/Certificates";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
+import Projects from "@/components/Projects";
 import Skills from "@/components/Skills";
 import Socials from "@/components/Socials";
 import Head from "next/head";
@@ -16,6 +17,7 @@ export default function Home() {
       <Socials />
       <Skills />
       <Certificates />
+      <Projects />
     </div>
   );
 }
