@@ -5,9 +5,9 @@ const Hero = () => {
     <div>
       <div className="min-h-screen md:min-h-[85vh] h-full bg-page-gradient">
         <div className="z-10 flex flex-col h-[70vh] items-center justify-between md:justify-evenly md:items-start p-10 md:ml-20">
-          <div className="mt-10 flex flex-col md:flex-row h-full">
+          <div className="mt-10 flex flex-col md:flex-row h-full justify-between">
             <div className="flex flex-col items-center md:items-start">
-              <div className="flex flex-row gap-2 md:items-start items-center">
+              <div className="flex flex-row gap-2 items-center">
                 <Player
                   autoplay={true}
                   loop={true}
