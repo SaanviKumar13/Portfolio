@@ -9,14 +9,17 @@ const config: Config = {
   theme: {
     extend: {
       colors:{
-        "primary":"#f2f2f2"
+        portfolio:{
+          "white":"#f2f2f2",
+          "sea-blue":"#527794",
+          "navy-blue":"#000212",
+          "light-blue":"#9dc1d4",
+          "sky-blue":"#BCD3E7",
+        }
       },
       backgroundImage: {
         'page-gradient':
         'linear-gradient(to top, #09203f 0%, #537895 100%);',
-      },
-      boxShadow: {
-        primary: 'rgb(80 63 205 / 50%) 0px 1px 40px',
       },
       fontFamily:{
         main:['Inter', 'sans-serif'],

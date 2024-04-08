@@ -1,5 +1,3 @@
-import { SocialData } from "@/utils/data";
-
 const ContactMe = () => {
   return (
     <div id="contact-me">
@@ -20,7 +18,7 @@ const ContactMe = () => {
         </p>
         <a
           href="mailto:saanviprashantkumar@gmail.com"
-          className="px-4 py-3 bg-[#9dc1d4] rounded-xl cursor-pointer relative overflow-hidden transition-all duration-500 ease-in-out shadow-md hover:scale-105 hover:shadow-lg before:absolute before:top-0 before:-left-full before:w-full before:h-full before:bg-gradient-to-r before:from-[#537895] before:to-[#9dc1d4] before:transition-all before:duration-500 before:ease-in-out before:z-[-1] before:rounded-xl hover:before:left-0 text-[#fff]"
+          className="px-4 py-3 bg-portfolio-light-blue rounded-xl cursor-pointer relative overflow-hidden transition-all duration-500 ease-in-out shadow-md hover:scale-105 hover:shadow-lg before:absolute before:top-0 before:-left-full before:w-full before:h-full before:bg-gradient-to-r before:from-portfolio-sea-blue before:to-portfolio-light-blue before:transition-all before:duration-500 before:ease-in-out before:z-[-1] before:rounded-xl hover:before:left-0 text-[#fff]"
         >
           Get in touch!
         </a>

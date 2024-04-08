@@ -29,7 +29,7 @@ export default function ProjectCard({
           className="my-3 rounded-lg hover:scale-125 duration-700"
         />
         <div className="flex flex-row justify-between">
-          <h1 className="text-[#527794] font-bold text-xl">{name}</h1>
+          <h1 className="text-portfolio-sea-blue font-bold text-xl">{name}</h1>
           <div className="flex flex-row gap-2 mx-3">
             {githubLink && (
               <Link href={githubLink} target="_blank">
@@ -50,7 +50,7 @@ export default function ProjectCard({
       <div className="flex flex-row flex-wrap gap-2 mt-3">
         {techStack.map((tech, index) => (
           <div
-            className="bg-[#527794] text-xs text-slate-50 rounded-lg py-1 w-fit px-3 cursor-pointer"
+            className="bg-portfolio-sea-blue text-xs text-slate-50 rounded-lg py-1 w-fit px-3 cursor-pointer"
             key={index}
           >
             {tech}

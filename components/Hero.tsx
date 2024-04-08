@@ -14,16 +14,21 @@ const Hero = () => {
                   controls={true}
                   src="https://lottie.host/e6a00561-f555-4193-9731-ad04ecb23bfc/A6qjkGdqQr.json"
                   style={{ height: "50px", width: "50px" }}
-                ></Player>{" "}
+                ></Player>
                 <h1 className="text-lg mt-1 font-extrabold text-slate-100">
                   Hey, I&apos;m Saanvi.
                 </h1>
               </div>
               <h2 className="text-4xl text-center md:text-left md:text-7xl font-mono font-extrabold text-slate-100 mt-2">
-                I love{" "}
-                <span className="text-[#BCD3E7] font-title">building</span> and{" "}
-                <br />
-                <span className="text-[#BCD3E7] font-title"> creating </span>
+                I love {""}
+                <span className="text-portfolio-sky-blue font-title">
+                  building
+                </span>{" "}
+                and <br />
+                <span className="text-portfolio-sky-blue font-title">
+                  {" "}
+                  creating{" "}
+                </span>
                 projects.
               </h2>
             </div>

@@ -9,7 +9,7 @@ import Head from "next/head";
 
 export default function Home() {
   return (
-    <div className="bg-primary font-mono">
+    <div className="bg-portfolio-white font-mono">
       <Head>
         <title>Saanvi Kumar</title>
       </Head>

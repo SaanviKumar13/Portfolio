@@ -30,7 +30,7 @@ const Socials = () => {
         {SocialData.map((item, index) => {
           return (
             <Link
-              className="text-black hover:text-[#527794] transition-all hover:opacity-40 transform hover:scale-75"
+              className="text-portfolio-navy-blue hover:text-portfolio-sea-blue transition-all hover:opacity-40 transform hover:scale-75"
               href={item.href}
               target="_blank"
               key={index}
@@ -39,7 +39,7 @@ const Socials = () => {
             </Link>
           );
         })}
-        <div className="h-28 md:h-36 mt-2 w-1/12 bg-black" />
+        <div className="h-28 md:h-36 mt-2 w-1/12 bg-portfolio-navy-blue" />
       </div>
     </div>
   );
