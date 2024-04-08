@@ -35,13 +35,13 @@ export const SkillList = [
 export const CertificatesList = [
   {
     name: "Machine Learning Specialization",
-    image: "ml.png",
+    image: "images/certificates/ml.png",
     description: "Completed a ML course taken by Andrew Ng",
     issuedBy: "Coursera - Standford University",
   },
   {
     name: "Programming in Java",
-    image: "java.png",
+    image: "images/certificates/java.png",
     description: "Recieved a certificate of elite + silver medal.",
     issuedBy: "NPTEL",
   },
@@ -53,7 +53,7 @@ export const ProjectList = [
     description:
       "An AI powered color palette generator which allows users to input any text, and then generates a color palette associated with that text. Users can explore different color schemes by typing in various words, phrases, song titles, or even names of people. They can then copy the hex codes of the colors generated for their own projects.",
     techStack: ["NextJs", "React", "TailwindCSS", "OpenAI API"],
-    image: "color-gen.png",
+    image: "images/projects/color-gen.png",
     link: "https://color-generator-topaz.vercel.app/",
     githubLink: "https://github.com/SaanviKumar13/ColorGen",
   },
@@ -61,7 +61,7 @@ export const ProjectList = [
     name: "Fury",
     description: "A recruitments portal made for my campus club SRMKZILLA",
     techStack: ["Remix", "React", "TailwindCSS"],
-    image: "color-gen.png",
+    image: "images/projects/color-gen.png",
     githubLink: "https://github.com/SaanviKumar13/fury",
   },
   {
@@ -74,7 +74,7 @@ export const ProjectList = [
       "Python",
       "FastAPI",
     ],
-    image: "kzblogs.png",
+    image: "images/projects/kzblogs.png",
     // githubLink: "https://github.com/SaanviKumar13/quizzle",
   },
   {
@@ -82,7 +82,7 @@ export const ProjectList = [
     description:
       "The ultimate trivia game where you can challenge yourself on wide range of topics ranging from pop culture to science and nature. With 23 categories and 3 difficulty levels, this game has something for everyone!",
     techStack: ["React", "CSS", "Open Trivia DB API"],
-    image: "quizzle.png",
+    image: "images/projects/quizzle.png",
     link: "https://quizzle-one.vercel.app/",
     githubLink: "https://github.com/SaanviKumar13/quizzle",
   },

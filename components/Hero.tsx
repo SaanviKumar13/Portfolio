@@ -48,12 +48,12 @@ const Hero = () => {
         </div>
       </div>
       <img
-        src="/waves-bottom.png"
+        src="images/waves/bottom.png"
         alt="waves"
         className="hidden md:block w-full h-32"
       />
       <img
-        src="/waves-bottom-sm.png"
+        src="images/waves/bottom-sm.png"
         alt="waves"
         className="md:hidden w-full h-64"
       />

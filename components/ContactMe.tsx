@@ -2,12 +2,12 @@ const ContactMe = () => {
   return (
     <div id="contact-me">
       <img
-        src="waves-top.png"
+        src="images/waves/top.png"
         alt="waves"
         className="hidden md:block w-full h-32"
       />
       <img
-        src="/waves-top-sm.png"
+        src="images/waves/top-sm.png"
         alt="waves"
         className="md:hidden w-full h-64"
       />
