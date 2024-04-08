@@ -91,6 +91,19 @@ export const ProjectList = [
     githubLink: "https://github.com/SaanviKumar13/fury",
   },
   {
+    name: "KZBlogs",
+    description: "A blogs website made for my campus club SRMKZILLA.",
+    techStack: [
+      "NextJS (App directory)",
+      "TailwindCSS",
+      "React",
+      "Python",
+      "FastAPI",
+    ],
+    image: "kzblogs.png",
+    // githubLink: "https://github.com/SaanviKumar13/quizzle",
+  },
+  {
     name: "Quizzle",
     description:
       "The ultimate trivia game where you can challenge yourself on wide range of topics ranging from pop culture to science and nature. With 23 categories and 3 difficulty levels, this game has something for everyone!",

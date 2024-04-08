@@ -8,7 +8,7 @@ interface CardProps {
   description: string;
   techStack: string[];
   image: string;
-  githubLink: string;
+  githubLink?: string;
   link?: string;
 }
 
@@ -31,9 +31,12 @@ export default function ProjectCard({
         <div className="flex flex-row justify-between">
           <h1 className="text-[#527794] font-bold text-xl">{name}</h1>
           <div className="flex flex-row gap-2 mx-3">
-            <Link href={githubLink} target="_blank">
-              <FaGithub className="h-5 w-5 hover:rotate-45 hover:scale-110 duration-500" />
-            </Link>
+            {githubLink && (
+              <Link href={githubLink} target="_blank">
+                <FaGithub className="h-5 w-5 hover:rotate-45 hover:scale-110 duration-500" />
+              </Link>
+            )}
+
             {link && (
               <Link href={link} target="_blank">
                 <BiWorld className="h-5 w-5 hover:rotate-45 hover:scale-110 duration-500" />
