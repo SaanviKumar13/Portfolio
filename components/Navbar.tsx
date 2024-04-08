@@ -17,9 +17,10 @@ const Navbar = () => {
     <nav className="sticky top-7 mt-2 font-mono z-30">
       <div className="flex flex-col px-4 md:px-10 mx-auto">
         <div className="flex md:flex-row items-center justify-between">
-          <span className="text-2xl md:text-5xl font-semibold font-title text-black bg-primary px-9 py-3 rounded-full shadow-md shadow-[#527794] cursor-pointer">
-            saanvikumar.dev
+          <span className="text-2xl md:text-5xl font-semibold font-title text-black bg-primary px-9 py-3 rounded-full shadow-md shadow-[#527794] cursor-pointer hover:scale-110 duration-700">
+            <Link href="/">saanvikumar.dev </Link>
           </span>
+
           <div className="hidden md:flex flex-row gap-5 font-medium text-lg text-black">
             {NavLink.map(({ name, link }) => (
               <Link
