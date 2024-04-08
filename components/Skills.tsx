@@ -26,7 +26,7 @@ const Skills = () => {
                 <div className="flex flex-wrap justify-center md:justify-start gap-5">
                   {list.map((skill, idx) => (
                     <p
-                      className=" bg-[#527794] text-slate-50 rounded-lg py-2 w-fit px-5"
+                      className=" bg-[#527794] text-slate-50 rounded-lg py-2 w-fit px-5 hover:scale-110 duration-300 cursor-pointer"
                       key={idx}
                     >
                       {skill}
