@@ -14,10 +14,10 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="sticky top-7 mt-2 font-mono z-30">
+    <nav className="sticky top-0 pt-5 pb-2 font-mono z-30 bg-portfolio-white bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10">
       <div className="flex flex-col px-4 md:px-10 mx-auto">
         <div className="flex md:flex-row items-center justify-between">
-          <span className="text-2xl md:text-5xl font-semibold font-title text-portfolio-navy-blue bg-portfolio-white px-9 py-3 rounded-full shadow-md shadow-portfolio-sea-blue cursor-pointer hover:scale-110 duration-700">
+          <span className="text-lg md:text-3xl font-semibold font-title text-portfolio-navy-blue bg-portfolio-white px-2 md:px-9 md:py-3 rounded-full shadow-md shadow-portfolio-sea-blue cursor-pointer hover:scale-110 duration-700">
             <Link href="/">saanvikumar.dev </Link>
           </span>
 
@@ -47,7 +47,7 @@ const Navbar = () => {
         </div>
         <div>
           {navbarOpen && (
-            <div className="text-center md:hidden transition-all duration-300">
+            <div className="text-center bg-portfolio-white bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 md:hidden transition-all duration-75 ease-in-out">
               {NavLink.map(({ name, link }) => (
                 <Link
                   key={link}
