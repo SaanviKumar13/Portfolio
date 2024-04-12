@@ -17,7 +17,7 @@ const Navbar = () => {
     <nav className="sticky top-0 pt-5 pb-2 font-mono z-30 bg-portfolio-white bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10">
       <div className="flex flex-col px-4 md:px-10 mx-auto">
         <div className="flex md:flex-row items-center justify-between">
-          <span className="text-lg md:text-3xl font-semibold font-title text-portfolio-navy-blue bg-portfolio-white px-2 md:px-9 md:py-3 rounded-full shadow-md shadow-portfolio-sea-blue cursor-pointer hover:scale-110 duration-700">
+          <span className="text-lg md:text-3xl font-semibold font-title text-portfolio-navy-blue bg-portfolio-white px-2 md:px-5 md:py-2 rounded-full shadow-md shadow-portfolio-sea-blue cursor-pointer hover:scale-110 duration-700">
             <Link href="/">saanvikumar.dev </Link>
           </span>
 
