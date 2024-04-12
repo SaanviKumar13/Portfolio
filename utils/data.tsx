@@ -86,4 +86,12 @@ export const ProjectList = [
     link: "https://quizzle-one.vercel.app/",
     githubLink: "https://github.com/SaanviKumar13/quizzle",
   },
+  {
+    name: "Note-worthy",
+    description: "A note taking app for notes that are worth your time.",
+    techStack: ["Remix", "React", "TailwindCSS", "Prisma", "Supabase"],
+    image: "images/projects/todo.png",
+    link: "https://note-worthy-six.vercel.app/",
+    githubLink: "https://github.com/SaanviKumar13/Note-Worthy",
+  },
 ];
