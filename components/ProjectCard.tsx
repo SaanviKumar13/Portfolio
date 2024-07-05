@@ -7,7 +7,7 @@ interface CardProps {
   name: string;
   description: string;
   techStack: string[];
-  image: string;
+  image?: string;
   githubLink?: string;
   link?: string;
 }
@@ -23,11 +23,13 @@ export default function ProjectCard({
   return (
     <div className="md:w-[30vw] flex flex-col justify-between px-5">
       <div>
-        <img
-          src={image}
-          alt={name}
-          className="my-3 rounded-lg hover:scale-125 duration-700"
-        />
+        {image && (
+          <img
+            src={image}
+            alt={name}
+            className="my-3 rounded-lg hover:scale-125 duration-700"
+          />
+        )}
         <div className="flex flex-row justify-between">
           <h1 className="text-portfolio-sea-blue font-bold text-xl">{name}</h1>
           <div className="flex flex-row gap-2 mx-3">

@@ -19,6 +19,10 @@ export const SkillList = [
     list: ["HTML", "CSS", "TailwindCSS", "SASS", "React", "Next.js", "Remix"],
   },
   {
+    category: "Backend",
+    list: ["Express"],
+  },
+  {
     category: "Data Science",
     list: ["Matplotlib", "Seaborn", "NumPy", "Pandas", "MatLab"],
   },
@@ -90,6 +94,14 @@ export const ProjectList = [
     name: "Note-worthy",
     description: "A note taking app for notes that are worth your time.",
     techStack: ["Remix", "React", "TailwindCSS", "Prisma", "Supabase"],
+    image: "images/projects/todo.png",
+    link: "https://note-worthy-six.vercel.app/",
+    githubLink: "https://github.com/SaanviKumar13/Note-Worthy",
+  },
+  {
+    name: "Diner",
+    description: "A Restaurant Management System made for my DBMS project",
+    techStack: ["Remix", "React", "TailwindCSS", "Express", "TypeScript"],
     image: "images/projects/todo.png",
     link: "https://note-worthy-six.vercel.app/",
     githubLink: "https://github.com/SaanviKumar13/Note-Worthy",
