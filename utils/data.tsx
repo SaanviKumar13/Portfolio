@@ -61,7 +61,7 @@ export const ProjectList = [
     name: "Fury",
     description: "A recruitments portal made for my campus club SRMKZILLA",
     techStack: ["Remix", "React", "TailwindCSS"],
-    image: "images/projects/color-gen.png",
+    image: "images/projects/fury.png",
     githubLink: "https://github.com/SaanviKumar13/fury",
   },
   {
